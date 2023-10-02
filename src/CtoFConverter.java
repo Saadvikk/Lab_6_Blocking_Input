@@ -18,7 +18,7 @@ public class CtoFConverter
             if (scanner.hasNextDouble())
             {
                 c = scanner.nextDouble();
-                f = (c * (9/5) + 32);
+                f = (c * 1.8 + 32);
                 System.out.println("Your input of " + c + " degrees celsius is equal to " + f + " degrees celsius. ");
             }
             else
