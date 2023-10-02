@@ -19,7 +19,7 @@ public class CtoFConverter
             {
                 c = scanner.nextDouble();
                 f = (c * 1.8 + 32);
-                System.out.println("Your input of " + c + " degrees celsius is equal to " + f + " degrees celsius. ");
+                System.out.println("Your input of " + c + " degrees celsius is equal to " + f + " degrees fahrenheit. ");
             }
             else
             {
